@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodePurge</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="CodePurge Logo">
+    <h1>CodePurge</h1>
+    <nav>
+      <a href="https://github.com/CodePurge" target="_blank">GitHub</a>
+      <!-- <a href="app-store-link"><img src="appStoreIcon.svg" alt="Download on the App Store"></a> -->
+    </nav>
+  </header>
+
+  <main>
+    <p>Take control of your Xcode environment with CodePurge.</p>
+
+    <p>CodePurge is a powerful tool designed to help developers optimize their Xcode workspace by managing and cleaning up unnecessary files. It offers features to:</p>
+
+    <ul>
+      <li>Identify and remove old <strong>archives</strong>, <strong>derived data</strong>, and <strong>documentation caches</strong>.</li>
+      <li>Manage <strong>device support files</strong>, distinguishing between recently used and obsolete files.</li>
+      <li>Handle <strong>simulators</strong>, including SwiftUI Preview simulators, which often consume excessive storage.</li>
+      <li>Clean up the global <strong>Swift Package Manager cache</strong>, freeing up space from outdated repositories.</li>
+    </ul>
+
+    <p>CodePurge is modular, consisting of a standalone app and two publicly available Swift packages:</p>
+
+    <ul>
+      <li><a href="https://github.com/CodePurge/CodePurgeKit" target="_blank">CodePurgeKit</a> – Core library with shared data models, utilities, and UI components.</li>
+      <li><a href="https://github.com/CodePurge/CodePurgeDeveloperDataKit" target="_blank">CodePurgeDeveloperDataKit</a> – Manages archives, derived data, device support, and documentation caches.</li>
+    </ul>
+
+    <h2>Features</h2>
+
+    <h3>Test Mode and Live Mode</h3>
+    <p>CodePurge offers two modes of operation:</p>
+    <ul>
+      <li><strong>Test Mode</strong>: Preview what would be deleted without making changes.</li>
+      <li><strong>Live Mode</strong>: Actively remove selected files to free up storage.</li>
+    </ul>
+
+    <div class="image-container">
+      <div>
+        <img src="simView_preview.png" alt="Test Mode Screenshot">
+        <p>Test Mode: No files are deleted</p>
+      </div>
+      <div>
+        <img src="simView_live.png" alt="Live Mode Screenshot">
+        <p>Live Mode: Files are deleted</p>
+      </div>
+    </div>
+
+    <h3>Device Support Management</h3>
+    <p>Effortlessly manage outdated device support files:</p>
+    <ul>
+      <li>View a complete list of installed support files.</li>
+      <li>Distinguish between recently used and unused files.</li>
+    </ul>
+
+    <div class="image-container">
+      <div>
+        <img src="deviceSupport.png" alt="Device Support Files">
+        <p>Complete list of iOS support files</p>
+      </div>
+      <div>
+        <img src="deviceSupport_recentDevices.png" alt="Recent Support Files">
+        <p>Easily identify files that are no longer needed.</p>
+      </div>
+    </div>
+
+    <h3>Simulator Management</h3>
+    <p>Manage both core iOS simulators and SwiftUI Preview simulators, preventing them from consuming excessive disk space.</p>
+
+    <h3>Swift Packages Cache Cleanup</h3>
+    <p>Remove outdated Swift Package Manager repositories to optimize your development environment.</p>
+
+    <h2>Who Should Use CodePurge?</h2>
+    <ul>
+      <li><strong>iOS Developers</strong> looking to maintain a clean development environment.</li>
+      <li><strong>Anyone using Xcode</strong> who wants to reclaim storage space.</li>
+    </ul>
+
+    <h2>Why Choose CodePurge?</h2>
+    <ul>
+      <li>💾 <strong>Save valuable disk space</strong> by removing unnecessary files.</li>
+      <li>🚀 <strong>Optimize your workflow</strong> without worrying about clutter.</li>
+    </ul>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <p>&copy; 2024 CodePurge. All rights reserved.</p>
+  </footer>
+</body>
+</html>
